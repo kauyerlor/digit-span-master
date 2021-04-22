@@ -94,9 +94,9 @@ var instructTimeThresh = 0 ///in seconds
 
 // task specific variables
 var num_digits = 3
-var num_trials = 14
+var num_trials = 5
 var curr_seq = []
-var stim_time = 800
+var stim_time = 600
 var gap_time = 200
 var time_array = []
 var total_time = 0
@@ -155,7 +155,7 @@ var post_task_block = {
 
 /* define static blocks */
 var feedback_instruct_text =
-  'Welcome to the experiment. This experiment will take less than 10 minutes. Press <strong>enter</strong> to begin.'
+  'Welcome to the experiment. This experiment will last approximately 3 minutes. Press <strong>enter</strong> to begin.'
 var feedback_instruct_block = {
   type: 'poldrack-text',
   cont_key: [13],
